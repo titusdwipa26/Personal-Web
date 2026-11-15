@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="id" data-bs-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Titus Dwipa | Web Personal</title>
+  <meta name="description" content="Website personal mahasiswa Sistem Informasi Telkom University Surabaya: fotografi, musik, penulisan cerita, dan data analis.">
+
+  <!-- Bootstrap CSS & Bootstrap Icons via CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- CSS kustom (file ada di folder assets) -->
+  <link href="assets/style.css" rel="stylesheet">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbarMain" data-bs-offset="90" tabindex="0">
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary border-bottom" id="navbarMain">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#beranda"><i class="bi bi-camera2 text-accent me-1"></i>Titus<span class="text-accent">Dwipa</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav" aria-controls="menuNav" aria-expanded="false" aria-label="Buka menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menuNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#beranda">Beranda</a></li>
+          <li class="nav-item"><a class="nav-link" href="#tentang">Tentang</a></li>
+          <li class="nav-item"><a class="nav-link" href="#kemampuan">Kemampuan</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portofolio">Portofolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- ========== HERO / BERANDA ========== -->
+    <section id="beranda" class="hero d-flex align-items-center">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-7 order-2 order-lg-1">
+            <span class="badge rounded-pill text-bg-secondary mb-3 px-3 py-2">
+              <i class="bi bi-mortarboard-fill me-1"></i> Sistem Informasi &middot; Telkom University Surabaya
+            </span>
+            <h1 class="display-3 fw-bold lh-1 mb-3">Halo, saya <span class="text-accent">Titus Dwipa</span></h1>
+            <p class="fs-5 text-body-secondary mb-4">
+              Menangkap cerita lewat <strong>fotografi</strong>, menuliskannya dalam <strong>kata</strong>,
+              merangkainya dengan <strong>musik</strong>, dan membacanya lewat <strong>data</strong>.
+            </p>
+            <div class="d-flex flex-wrap gap-2">
+              <a href="#portofolio" class="btn btn-accent btn-lg px-4">Lihat Portofolio <i class="bi bi-arrow-right ms-1"></i></a>
+              <a href="#kontak" class="btn btn-outline-secondary btn-lg px-4">Hubungi Saya</a>
+            </div>
+          </div>
+          <div class="col-lg-5 order-1 order-lg-2 text-center">
+            <div class="avatar-wrap mx-auto">
+              <img src="images/profil.JPG" alt="Foto profil" class="avatar-img" onerror="this.style.display='none'">
+              <i class="bi bi-person-fill avatar-fallback"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== TENTANG ========== -->
+    <section id="tentang" class="py-5 section-alt">
+      <div class="container py-4">
+        <div class="text-center mb-5">
+          <p class="section-label">Tentang</p>
+          <h2 class="display-6 fw-bold">Titus Dwipa</h2>
+        </div>
+        <div class="row g-4 align-items-stretch">
+          <div class="col-lg-6">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body p-4">
+                <p class="fs-5">
+                  Saya mahasiswa <strong>Sistem Informasi</strong> di <strong>Telkom University Surabaya</strong>,
+                  angkatan <strong>2025</strong>.
+                </p>
+                <p class="text-body-secondary mb-0">
+                  Saya punya ketertarikan pada fotografi, seni musik, analisis data, dan gemar menulis cerita.
+                  Dunia kreatif melatih saya melihat detail dan merangkai makna, sementara analisis data melatih saya
+                  mengambil keputusan berdasarkan fakta. Dua sisi itu saya padukan dalam setiap karya dan proyek.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="row g-3 h-100">
+              <div class="col-6">
+                <div class="card h-100 text-center border-0 shadow-sm interest-card">
+                  <div class="card-body">
+                    <i class="bi bi-camera-fill fs-1 text-accent"></i>
+                    <h3 class="h6 mt-2 mb-1">Fotografi</h3>
+                    <small class="text-body-secondary">Menangkap momen</small>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="card h-100 text-center border-0 shadow-sm interest-card">
+                  <div class="card-body">
+                    <i class="bi bi-music-note-beamed fs-1 text-accent"></i>
+                    <h3 class="h6 mt-2 mb-1">Seni Musik</h3>
+                    <small class="text-body-secondary">Berkarya dengan nada</small>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="card h-100 text-center border-0 shadow-sm interest-card">
+                  <div class="card-body">
+                    <i class="bi bi-pen-fill fs-1 text-accent"></i>
+                    <h3 class="h6 mt-2 mb-1">Menulis Cerita</h3>
+                    <small class="text-body-secondary">Merangkai imajinasi</small>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="card h-100 text-center border-0 shadow-sm interest-card">
+                  <div class="card-body">
+                    <i class="bi bi-bar-chart-line-fill fs-1 text-accent"></i>
+                    <h3 class="h6 mt-2 mb-1">Data Analis</h3>
+                    <small class="text-body-secondary">Menemukan insight</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== KEMAMPUAN ========== -->
+    <section id="kemampuan" class="py-5">
+      <div class="container py-4">
+        <div class="text-center mb-5">
+          <p class="section-label">Kemampuan</p>
+          <h2 class="display-6 fw-bold">What I Can Do</h2>
+        </div>
+        <div class="row g-4">
+
+          <!-- Fotografi -->
+          <div class="col-md-6">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body p-4">
+                <div class="d-flex align-items-center mb-3">
+                  <span class="icon-box me-3"><i class="bi bi-camera-fill"></i></span>
+                  <h3 class="h4 mb-0">Fotografi</h3>
+                </div>
+                <p class="text-body-secondary">Mengabadikan momen dengan komposisi dan pencahayaan yang tepat.</p>
+                <ul class="list-unstyled skill-list">
+                  <li><i class="bi bi-check-circle-fill me-2"></i>Komposisi &amp; framing</li>
+                  <li><i class="bi bi-check-circle-fill me-2"></i>Pengaturan cahaya</li>
+                  <li><i class="bi bi-check-circle-fill me-2"></i>Pengambilan foto potret &amp; suasana</li>
+                </ul>
+                <div class="d-flex flex-wrap gap-2">
+                  <span class="badge">Potret</span>
+                  <span class="badge">Street</span>
+                  <span class="badge">Lanskap</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pengeditan Foto -->
+          <div class="col-md-6">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body p-4">
+                <div class="d-flex align-items-center mb-3">
+                  <span class="icon-box me-3"><i class="bi bi-image-fill"></i></span>
+                  <h3 class="h4 mb-0">Pengeditan Foto</h3>
+                </div>
+                <p class="text-body-secondary">Membuat foto tampil lebih hidup dan sesuai karakter yang diinginkan.</p>
+                <ul class="list-unstyled skill-list">
+                  <li><i class="bi bi-check-circle-fill me-2"></i>Color grading</li>
+                  <li><i class="bi bi-check-circle-fill me-2"></i>Retouching</li>
+                  <li><i class="bi bi-check-circle-fill me-2"></i>Komposisi ulang &amp; cropping</li>
+                </ul>
+                <div class="d-flex flex-wrap gap-2">
+                  <span class="badge">Lightroom</span>
+                  <span class="badge">Photoshop</span>
+                  <span class="badge">Snapseed</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pengeditan Video -->
+          <div class="col-md-6">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body p-4">
+                <div class="d-flex align-items-center mb-3">
+                  <span class="icon-box me-3"><i class="bi bi-film"></i></span>
+                  <h3 class="h4 mb-0">Pengeditan Video</h3>
+                </div>
+                <p class="text-body-secondary">Menyusun potongan gambar dan suara menjadi video yang enak ditonton.</p>
+                <ul class="list-unstyled skill-list">
+                  <li><i class="bi bi-check-circle-fill me-2"></i>Cutting &amp; transisi</li>
+                  <li><i class="bi bi-check-circle-fill me-2"></i>Sinkronisasi musik</li>
+                  <li><i class="bi bi-check-circle-fill me-2"></i>Color correction video</li>
+                </ul>
+                <div class="d-flex flex-wrap gap-2">
+                  <span class="badge">Premiere Pro</span>
+                  <span class="badge">CapCut</span>
+                  <span class="badge">DaVinci Resolve</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Penulisan Script & Cerita -->
+          <div class="col-md-6">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body p-4">
+                <div class="d-flex align-items-center mb-3">
+                  <span class="icon-box me-3"><i class="bi bi-journal-richtext"></i></span>
+                  <h3 class="h4 mb-0">Penulisan Script &amp; Cerita</h3>
+                </div>
+                <p class="text-body-secondary">Menyusun alur, tokoh, dan dialog menjadi tulisan yang hidup.</p>
+                <ul class="list-unstyled skill-list">
+                  <li><i class="bi bi-check-circle-fill me-2"></i>Cerita pendek (cerpen)</li>
+                  <li><i class="bi bi-check-circle-fill me-2"></i>Naskah / script video</li>
+                  <li><i class="bi bi-check-circle-fill me-2"></i>Pengembangan alur &amp; karakter</li>
+                </ul>
+                <div class="d-flex flex-wrap gap-2">
+                  <span class="badge">Cerpen</span>
+                  <span class="badge">Skenario</span>
+                  <span class="badge">Naskah Konten</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PORTOFOLIO ========== -->
+    <section id="portofolio" class="py-5 section-alt">
+      <div class="container py-4">
+        <div class="text-center mb-4">
+          <p class="section-label">Portofolio</p>
+          <h2 class="display-6 fw-bold">My Work</h2>
+        </div>
+
+        <!-- Tab (Bootstrap nav-pills) -->
+        <ul class="nav nav-pills justify-content-center mb-4" id="tabPortofolio" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="foto-tab" data-bs-toggle="pill" data-bs-target="#tab-foto" type="button" role="tab" aria-controls="tab-foto" aria-selected="true"><i class="bi bi-camera me-1"></i> Fotografi</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="musik-tab" data-bs-toggle="pill" data-bs-target="#tab-musik" type="button" role="tab" aria-controls="tab-musik" aria-selected="false"><i class="bi bi-music-note-list me-1"></i> Musik</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="cerita-tab" data-bs-toggle="pill" data-bs-target="#tab-cerita" type="button" role="tab" aria-controls="tab-cerita" aria-selected="false"><i class="bi bi-book me-1"></i> Cerita</button>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+
+          <!-- Fotografi:-->
+          <div class="tab-pane fade show active" id="tab-foto" role="tabpanel" aria-labelledby="foto-tab" tabindex="0">
+            <div class="row g-3">
+              <div class="col-6 col-md-4">
+                <a href="#" class="photo-item" data-bs-toggle="modal" data-bs-target="#modalFoto" data-src="images/foto-1.jpg" data-title="Kayuhan Nafkah">
+                  <img src="images/kang becak 2.png" alt="Kayuhan Nafkah" loading="lazy" onerror="this.style.display='none'">
+                  <span class="photo-caption">Kayuhan Nafkah</span>
+                </a>
+              </div>
+              <div class="col-6 col-md-4">
+                <a href="#" class="photo-item" data-bs-toggle="modal" data-bs-target="#modalFoto" data-src="images/foto-2.jpg" data-title="Judul Foto 2">
+                  <img src="images/foto 2.jpg" alt="Judul Foto 2" loading="lazy" onerror="this.style.display='none'">
+                  <span class="photo-caption">Alunan Melodi</span>
+                </a>
+              </div>
+              <div class="col-6 col-md-4">
+                <a href="#" class="photo-item" data-bs-toggle="modal" data-bs-target="#modalFoto" data-src="images/foto-3.jpg" data-title="Judul Foto 3">
+                  <img src="images/bunga.jpg" alt="Judul Foto 3" loading="lazy" onerror="this.style.display='none'">
+                  <span class="photo-caption">Bunga</span>
+                </a>
+              </div>
+              <div class="col-6 col-md-4">
+                <a href="#" class="photo-item" data-bs-toggle="modal" data-bs-target="#modalFoto" data-src="images/foto-4.jpg" data-title="Judul Foto 4">
+                  <img src="images/Senja.jpg" alt="Judul Foto 4" loading="lazy" onerror="this.style.display='none'">
+                  <span class="photo-caption">Surabaya Kala Sore</span>
+                </a>
+              </div>
+              <div class="col-6 col-md-4">
+                <a href="#" class="photo-item" data-bs-toggle="modal" data-bs-target="#modalFoto" data-src="images/foto-5.jpg" data-title="Judul Foto 5">
+                  <img src="images/Langit .jpg" alt="Judul Foto 5" loading="lazy" onerror="this.style.display='none'">
+                  <span class="photo-caption">God Hand</span>
+                </a>
+              </div>
+              <div class="col-6 col-md-4">
+                <a href="#" class="photo-item" data-bs-toggle="modal" data-bs-target="#modalFoto" data-src="images/foto-6.jpg" data-title="Judul Foto 6">
+                  <img src="images/Bunda.JPG" alt="Judul Foto 6" loading="lazy" onerror="this.style.display='none'">
+                  <span class="photo-caption">Pelukan Sang Bunda</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Musik: hanya tautan ke postingan (ganti href sesuai URL-mu) -->
+          <div class="tab-pane fade" id="tab-musik" role="tabpanel" aria-labelledby="musik-tab" tabindex="0">
+            <div class="row g-4">
+              <div class="col-md-6 col-lg-4">
+                <div class="card h-100 border-0 shadow-sm">
+                  <div class="card-body">
+                    <div class="d-flex align-items-center mb-3">
+                      <span class="icon-box me-3"><i class="bi bi-tiktok"></i></span>
+                      <div><h3 class="h6 mb-0">Ini abadi Cover</h3><small class="text-body-secondary">TikTok</small></div>
+                    </div>
+                    <p class="small text-body-secondary">Cover lagu ini abadi Perunggu.</p>
+                    <a href="https://www.tiktok.com/@beeaarrrr_/video/7679417382485462292?is_from_webapp=1&sender_device=pc&web_id=7582696582638863890" target="_blank" rel="noopener" class="btn btn-outline-secondary btn-sm">Lihat Postingan <i class="bi bi-box-arrow-up-right ms-1"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="card h-100 border-0 shadow-sm">
+                  <div class="card-body">
+                    <div class="d-flex align-items-center mb-3">
+                      <span class="icon-box me-3"><i class="bi bi-tiktok"></i></span>
+                      <div><h3 class="h6 mb-0">Cover Lagu Sampai Jadi Debu</h3><small class="text-body-secondary">TikTok</small></div>
+                    </div>
+                    <p class="small text-body-secondary">Cover Lagu Sampai Jadi Debu Banda Neira.</p>
+                    <a href="https://www.tiktok.com/@beeaarrrr_/video/7646294527514430740?is_from_webapp=1&sender_device=pc&web_id=7582696582638863890" target="_blank" rel="noopener" class="btn btn-outline-secondary btn-sm">Lihat Postingan <i class="bi bi-box-arrow-up-right ms-1"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="card h-100 border-0 shadow-sm">
+                  <div class="card-body">
+                    <div class="d-flex align-items-center mb-3">
+                      <span class="icon-box me-3"><i class="bi bi-tiktok"></i></span>
+                      <div><h3 class="h6 mb-0">Cover Lagu Sudah Ardhito Pramono</h3><small class="text-body-secondary">TikTok</small></div>
+                    </div>
+                    <p class="small text-body-secondary">Cover Lagu Sudah Ardhito Pramono.</p>
+                    <a href="https://www.tiktok.com/@beeaarrrr_/video/7660360924267662612?is_from_webapp=1&sender_device=pc&web_id=7582696582638863890" target="_blank" rel="noopener" class="btn btn-outline-secondary btn-sm">Lihat Postingan <i class="bi bi-box-arrow-up-right ms-1"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cerita: tautan ke cerpen (ganti href, judul, dan deskripsi) -->
+          <div class="tab-pane fade" id="tab-cerita" role="tabpanel" aria-labelledby="cerita-tab" tabindex="0">
+            <div class="row g-4">
+              <div class="col-md-6 col-lg-4">
+                <div class="card h-100 border-0 shadow-sm">
+                  <div class="card-body">
+                    <div class="d-flex align-items-center mb-3">
+                      <span class="icon-box me-3"><i class="bi bi-journal-text"></i></span>
+                      <div><h3 class="h6 mb-0">Mati</h3><small class="text-body-secondary">Medium</small></div>
+                    </div>
+                    <p class="small text-body-secondary">Sinopsis singkat cerpenmu dalam satu atau dua kalimat.</p>
+                    <a href="https://medium.com/@titusdwipa26/mati-a9aab220ea62?sharedUserId=titusdwipa26" target="_blank" rel="noopener" class="btn btn-outline-secondary btn-sm">Baca Cerita <i class="bi bi-box-arrow-up-right ms-1"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="card h-100 border-0 shadow-sm">
+                  <div class="card-body">
+                    <div class="d-flex align-items-center mb-3">
+                      <span class="icon-box me-3"><i class="bi bi-journal-text"></i></span>
+                      <div><h3 class="h6 mb-0">Judul Cerpen 2</h3><small class="text-body-secondary">Medium</small></div>
+                    </div>
+                    <p class="small text-body-secondary">Sinopsis singkat cerpenmu dalam satu atau dua kalimat.</p>
+                    <a href="https://medium.com/@usernamekamu/XXXXXXXX" target="_blank" rel="noopener" class="btn btn-outline-secondary btn-sm">Baca Cerita <i class="bi bi-box-arrow-up-right ms-1"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="card h-100 border-0 shadow-sm">
+                  <div class="card-body">
+                    <div class="d-flex align-items-center mb-3">
+                      <span class="icon-box me-3"><i class="bi bi-journal-text"></i></span>
+                      <div><h3 class="h6 mb-0">Judul Cerpen 3</h3><small class="text-body-secondary">Google Docs</small></div>
+                    </div>
+                    <p class="small text-body-secondary">Sinopsis singkat cerpenmu dalam satu atau dua kalimat.</p>
+                    <a href="https://docs.google.com/document/d/XXXXXXXX" target="_blank" rel="noopener" class="btn btn-outline-secondary btn-sm">Baca Cerita <i class="bi bi-box-arrow-up-right ms-1"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== KONTAK ========== -->
+    <section id="kontak" class="py-5">
+      <div class="container py-4">
+        <div class="text-center mb-5">
+          <p class="section-label">Kontak</p>
+          <h2 class="display-6 fw-bold">Mari terhubung</h2>
+          <p class="text-body-secondary">Terbuka untuk kolaborasi foto, musik, tulisan, maupun proyek data.</p>
+        </div>
+        <div class="row g-3 justify-content-center">
+          <div class="col-sm-6 col-lg-3">
+            <a href="tel:+6281234567890" class="card contact-card h-100 text-center text-decoration-none border-0 shadow-sm">
+              <div class="card-body py-4">
+                <i class="bi bi-telephone-fill fs-1 text-accent"></i>
+                <h3 class="h6 mt-3 mb-1">Telepon</h3>
+                <small class="text-body-secondary">+62 812-3456-7890</small>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <a href="mailto:emailkamu@gmail.com" class="card contact-card h-100 text-center text-decoration-none border-0 shadow-sm">
+              <div class="card-body py-4">
+                <i class="bi bi-envelope-fill fs-1 text-accent"></i>
+                <h3 class="h6 mt-3 mb-1">Email</h3>
+                <small class="text-body-secondary">dwipatitus@gmail.com</small>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <a href="https://www.instagram.com/usernamekamu" target="_blank" rel="noopener" class="card contact-card h-100 text-center text-decoration-none border-0 shadow-sm">
+              <div class="card-body py-4">
+                <i class="bi bi-instagram fs-1 text-accent"></i>
+                <h3 class="h6 mt-3 mb-1">Instagram</h3>
+                <small class="text-body-secondary">@titusdwipa_</small>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="border-top py-4 bg-body-tertiary">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+      <small class="text-body-secondary">&copy; 2026 Nama Kamu &middot; Sistem Informasi, Telkom University Surabaya</small>
+      <a href="#beranda" class="small text-decoration-none">Kembali ke atas <i class="bi bi-arrow-up-circle ms-1"></i></a>
+    </div>
+  </footer>
+
+  <!-- ========== MODAL FOTO ========== -->
+  <div class="modal fade" id="modalFoto" tabindex="-1" aria-labelledby="modalFotoLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalFotoLabel">Foto</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Tutup"></button>
+        </div>
+        <div class="modal-body p-0">
+          <img id="modalFotoImg" src="" alt="" class="img-fluid w-100">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Isi modal dengan foto yang diklik
+    const modalFoto = document.getElementById('modalFoto');
+    modalFoto.addEventListener('show.bs.modal', function (event) {
+      const item = event.relatedTarget;
+      document.getElementById('modalFotoLabel').textContent = item.dataset.title;
+      const img = document.getElementById('modalFotoImg');
+      img.src = item.dataset.src;
+      img.alt = item.dataset.title;
+    });
+
+    // Tutup menu hamburger otomatis setelah salah satu menu diketuk (mode HP)
+    const menuNav = document.getElementById('menuNav');
+    document.querySelectorAll('#menuNav .nav-link').forEach(function (link) {
+      link.addEventListener('click', function () {
+        const instance = bootstrap.Collapse.getInstance(menuNav);
+        if (instance) instance.hide();
+      });
+    });
+  </script>
+</body>
+</html>
